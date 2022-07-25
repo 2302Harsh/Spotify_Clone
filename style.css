@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+
+body{
+    background-color:  antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+   
+    display: flex;
+}
+
+.sidemenu{
+    width: 245px;
+    background-color: black;
+    font-family: 'ubuntu' , sans-serif;
+    height: 87vh;
+    
+}
+
+nav a{
+    display: flex;
+    
+    text-decoration: none;
+    color: gainsboro;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.home{
+    color: white ;
+}
+
+
+.brand img{
+    width: 40px;
+    padding-right:8px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white;
+    padding: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    font-family: 'ubuntu' , sans-serif;
+    color: white;
+    padding: 25px;
+}
+
+.bottom{
+    position: sticky;
+    height: 90px;
+    background-color: rgb(26, 25, 25);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icons i{
+    padding: 10px;
+    cursor: context-menu;
+}
+
+#myProgessBar{
+    margin-top: 14px;
+    
+}
